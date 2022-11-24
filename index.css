@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 .home{
-  background-image: linear-gradient(to right, black , gray), url('images/netflix1.jpg');
+  background-image:  url('https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/f4344d2d-3209-4741-b48e-35587bdeba9a/NG-en-20221121-popsignuptwoweeks-perspective_alpha_website_large.jpg');
   opacity: 2;
   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
   overflow: hidden;
@@ -44,26 +44,26 @@ html{
     max-width: 640px;
     margin: 0 auto;
     font-weight: 700;
-    padding-left: 5rem;
+    padding-left: 7rem;
 }
 .body1 .head1{
     font-size: 3rem;
     max-width: 640px;
     margin: 0 auto;
-    padding-left: 10rem;
+    padding-left: 12rem;
     font-weight: 700;
 }
 .body1 .head2{
     max-width: 640px;
     font-weight: 500;
-    padding-left: 10rem;
+    padding-left: 12rem;
     margin: 0 auto;
 }
 .input-control{
-    margin-left: 13%;
+    margin-left: 15%;
 }
 .input-control .form-title{
-    padding-left: 13%;
+    padding-left: 15%;
     font-weight: 500;
     font-size: large;
 }
@@ -74,7 +74,7 @@ html{
     border-style: solid 2px rgb(49, 49, 248);
     outline: none;
     color: #333;
-    margin-left: 10%;
+    margin-left: 11%;
     border-radius: 0.2rem;
 }
 .input-control .submit{
