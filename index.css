@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+.home{
+  background-image: url('netflix1.jpg');
+  opacity: 2;
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  overflow: hidden;
+}
+.home a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.home a.netflix{
+    color: red;
+    font-size: 3rem;
+}
+.home a.signin{
+    background-color: red; 
+    float: right;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4rem;
+    cursor: pointer;
+    margin: 14px 16px;
+    border-radius: 0.2rem;
+    font-weight: 600;
+
+} 
+.body1{
+    padding-top: 20%;
+    color: white;
+    height: 70vh;
+}
+.head{
+    font-size: 3rem;
+    max-width: 640px;
+    margin: 0 auto;
+    font-weight: 700;
+    padding-left: 5rem;
+}
+.body1 .head1{
+    font-size: 3rem;
+    max-width: 640px;
+    margin: 0 auto;
+    padding-left: 10rem;
+    font-weight: 700;
+}
+.body1 .head2{
+    max-width: 640px;
+    font-weight: 500;
+    padding-left: 10rem;
+    margin: 0 auto;
+}
+.input-control{
+    margin-left: 13%;
+}
+.input-control .form-title{
+    padding-left: 13%;
+    font-weight: 500;
+    font-size: large;
+}
+.input-control input{
+    width: 35%;
+    height: 25%;
+    padding: 1.3rem;
+    border-style: solid 2px rgb(49, 49, 248);
+    outline: none;
+    color: #333;
+    margin-left: 10%;
+    border-radius: 0.2rem;
+}
+.input-control .submit{
+    color: white;
+    background-color: red;
+    border-style: none;
+    padding: 0rem 4rem;
+    white-space: nowrap;
+    border-radius: 0.2rem;
+    margin-left: 0%;
+    font-size: larger;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    flex: right;
+    margin: 1px 5px;
+    height: 100%;
+}
+.right {
+    width: 3rem 3rem 3rem;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+  
+.submit p{
+    margin-right: 1rem;
+}  
+.tv{
+    background-color: black;
+    border-top: solid 6px rgb(69, 67, 67);
+}
+.tv .container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem 0;
+}
+.tv .content{
+    color: white;
+}
+.title{
+    font-size: 3rem;
+}
+.tv-img{
+    width: 80%;
+}
+.tv2{
+    background-color: black;
+    border-top: solid 6px rgb(69, 67, 67);
+}
+.tv2 .container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem 0;
+}
+.tv2 .content{
+    color: white;
+}
+.title2{
+    font-size: 3rem;
+}
+.tv2-img{
+    width: 80%;
+}
+.questions{
+    background-color: black;
+    border-top: solid 6px rgb(69, 67, 67);
+}
+.questions .content{
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
