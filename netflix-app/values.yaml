@@ -1,0 +1,8 @@
+# values.yaml
+
+replicaCount: 1
+
+image:
+  repository: lizdockerhub/netflix-app
+  tag: latest
+
