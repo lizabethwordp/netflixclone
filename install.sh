@@ -4,23 +4,6 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 kubectl port-forward svc/argocd-server -n argocd 8080:443
 
-# Download the Helm installation script
-curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
-
-# Make the script executable
-chmod 700 get_helm.sh
-
-# Run the installation script
-./get_helm.sh
-
-helm repo add stable https://charts.helm.sh/stable
-
-helm repo update
-
-helm search repo stable
-
-helm install my-release stable/<chart-name>
-
 git clone https://github.com/lizabethwordp/netflixclone.git
 cd netflixclone
 
